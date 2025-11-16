@@ -1,0 +1,57 @@
+{
+  "sponsors": [
+    {
+      "id": 1,
+      "name": "EcoVida Wildlife Fund",
+      "animal": "Tigre",
+      "website": "https://ecovida.example.com",
+      "logo": "https://via.placeholder.com/220x120?text=EcoVida",
+      "description": "Organização dedicada à preservação de grandes felinos em habitats naturais."
+    },
+    {
+      "id": 2,
+      "name": "Ocean Guardians",
+      "animal": "Lontra",
+      "website": "https://oceanguardians.example.org",
+      "logo": "https://via.placeholder.com/220x120?text=Ocean+Guardians",
+      "description": "Proteção de mamíferos aquáticos e ecossistemas marinhos."
+    },
+    {
+      "id": 3,
+      "name": "Savana Conservation",
+      "animal": "Elefante",
+      "website": "https://savana.example.net",
+      "logo": "https://via.placeholder.com/220x120?text=Savana",
+      "description": "Conservação de elefantes africanos e asiáticos."
+    }
+  ],
+  "experts": [
+    {
+      "id": 1,
+      "name": "Dr. João Silva",
+      "specialty": "Mamíferos (Felidae)",
+      "email": "joao.silva@universidade.pt",
+      "institution": "Universidade de Lisboa",
+      "photo": "https://via.placeholder.com/120?text=JS",
+      "bio": "Especialista em comportamento e conservação de grandes felinos com 15 anos de experiência."
+    },
+    {
+      "id": 2,
+      "name": "Dra. Maria Costa",
+      "specialty": "Aves (Passeriformes)",
+      "email": "maria.costa@instituto.pt",
+      "institution": "Instituto de Ornitologia",
+      "photo": "https://via.placeholder.com/120?text=MC",
+      "bio": "Investigadora dedicada ao estudo de aves migratórias e seus padrões comportamentais."
+    },
+    {
+      "id": 3,
+      "name": "Prof. Carlos Mendes",
+      "specialty": "Répteis",
+      "email": "carlos.mendes@ciencias.pt",
+      "institution": "Faculdade de Ciências",
+      "photo": "https://via.placeholder.com/120?text=CM",
+      "bio": "Professor e pesquisador com foco em herpetologia tropical."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mockup Mobile - Página Inicial</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous" />
+  <link href="../../public/css/animalec.css" rel="stylesheet" />
+  <style>
+    .divider-custom {margin: 1rem 0 1.25rem; width: 100%; display:flex; justify-content:center; align-items:center;}
+    .divider-custom .divider-custom-line {width:100%; max-width:6rem; height:0.25rem; background-color:#2c3e50; border-radius:1rem;}
+    .divider-custom .divider-custom-line:first-child{margin-right:1rem}
+    .divider-custom .divider-custom-line:last-child{margin-left:1rem}
+    .divider-custom .divider-custom-icon{color:#2c3e50; font-size:1.75rem}
+    .masthead .btn { display:block; width:100%; margin-bottom:10px; }
+  </style>
+</head>
+<body>
+  <!-- Navbar (collapsed) -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <a class="navbar-brand ml-2" href="#">ANIMALEC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ml-auto mr-2">
+        <li class="nav-item"><a class="nav-link" href="#">ANIMAIS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">QUIZZES</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">PATROCINADORES</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">ESPECIALISTAS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contactos">CONTACTOS</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="masthead bg-secondary text-white text-center">
+    <div class="container">
+      <img class="masthead-avatar mb-2" src="../../assets/animalec.png" alt="logo" />
+      <p class="masthead-subheading font-weight-light">Aprender tudo sobre animais!</p>
+      <div class="mt-2">
+        <a class="btn btn-light p-2" href="#rules"><i class="fas fa-info-circle mr-2"></i>COMO JOGAR?</a>
+        <a class="btn btn-danger p-2" href="#ranking"><i class="fas fa-chart-line mr-2"></i>VER RANKING</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- REGRAS (stacked) -->
+  <section class="page-section bg-primary text-white" id="rules">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="page-section-heading mt-2 text-uppercase">REGRAS</h2>
+        <div class="divider-custom">
+          <div class="divider-custom-line" style="background-color:#fff"></div>
+          <div class="divider-custom-icon" style="color:#fff"><i class="fas fa-star"></i></div>
+          <div class="divider-custom-line" style="background-color:#fff"></div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12 mb-4"><div class="mb-2"><i class="fas fa-hippo fa-3x"></i></div><p>1 - Estuda os <strong>ANIMAIS</strong> disponíveis.</p></div>
+        <div class="col-12 mb-4"><div class="mb-2"><i class="fas fa-comment-dots fa-3x"></i></div><p>2 - Partilha favoritos com amigos.</p></div>
+        <div class="col-12 mb-4"><div class="mb-2"><i class="fas fa-th fa-3x"></i></div><p>3 - Joga <strong>QUIZZES</strong> quando estiveres pronto.</p></div>
+        <div class="col-12 mb-4"><div class="mb-2"><i class="fas fa-medal fa-3x"></i></div><p>4 - Sobe no ranking com os teus pontos.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTOS (full width) -->
+  <section class="page-section" id="contactos">
+    <div class="container">
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contactos</h2>
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <form>
+            <div class="form-group mb-3"><input type="text" class="form-control" placeholder="nome" /></div>
+            <div class="form-group mb-3"><input type="email" class="form-control" placeholder="email" /></div>
+            <div class="form-group mb-3"><input type="text" class="form-control" placeholder="assunto" /></div>
+            <div class="form-group mb-4"><textarea class="form-control" rows="6" placeholder="mensagem"></textarea></div>
+            <div class="d-flex">
+              <button type="button" class="btn btn-success mr-2"><i class="fas fa-paper-plane"></i> Enviar</button>
+              <button type="reset" class="btn btn-danger"><i class="fas fa-eraser"></i> Limpar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer text-center">
+    <div class="container"><p class="m-0">Mockup Mobile • ANIMALEC</p></div>
+  </footer>
+</body>
+</html>
